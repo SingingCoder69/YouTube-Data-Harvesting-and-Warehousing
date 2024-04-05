@@ -50,7 +50,7 @@ The ETL process involves extracting data from the YouTube Data API, transforming
 * After the transformation process, the JSON format data is stored in the MongoDB database, also It has the option to migrate the data to PostgresSQL database from the MongoDB database.
 
 ### 5. E D A Process and Framework
-The exploratory data analysis (EDA) process involves analyzing the harvested YouTube data to gain insights and identify patterns. In this project, I facilitated the EDA through Streamlit, a web application framework for Python. Users can interact with the data using a user-friendly interface, visualize data using charts and graphs, and perform SQL queries to extract specific information.
+The exploratory data analysis (EDA) process involves analyzing the harvested YouTube data to gain insights and identify patterns. In this project, I facilitated the EDA through Streamlit, a web application framework for Python. Users can interact with the data using a user-friendly interface, visualize data, and perform SQL queries to extract specific information.
 
 #### a) Access MySQL DB 
 
@@ -73,7 +73,7 @@ The exploratory data analysis (EDA) process involves analyzing the harvested You
 
 #### Step 2. Data Migrate zone
 
-* Select the **channel name** and click the **Migrate to PostgresSQL** button to migrate the specific channel data to the MySQL database from MongoDB in the **Data Migrate zone**.
+* Select the **channel name** and click the **Migrate to PostgreSQL** button to migrate the specific channel data to the PostgreSQL database from MongoDB in the **Data Migrate zone**.
 
 #### Step 3. Channel Data Analysis zone
 
