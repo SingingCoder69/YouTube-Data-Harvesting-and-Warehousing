@@ -4,57 +4,42 @@
 
 * YouTube, the online video-sharing platform, has revolutionized the way we consume and interact with media. Launched in 2005, it has grown into a global phenomenon, serving as a hub for entertainment, education, and community engagement. With its vast user base and diverse content library, YouTube has become a powerful tool for individuals, creators, and businesses to share their stories, express themselves, and connect with audiences worldwide.
 
-* This project extracts the particular youtube channel data by using the youtube channel id, processes the data, and stores it in the MongoDB database. It has the option to migrate the data to MySQL from MongoDB then analyse the data and give the results depending on the customer questions.
+* This project extracts the particular youtube channel data by using the youtube channel id, processes the data, and stores it in the MongoDB database. It has the option to migrate the data to PostgresSQL from MongoDB then analyse the data and give the results depending on the customer questions.
+
+* I developed this project as a YouTube data harvesting and warehousing tool to extract, transform, and load (ETL) YouTube data into a MongoDB database and then migrate it to a PostgreSQL database for further analysis and querying. I utilized the YouTube Data API to collect information such as channel details, playlists, videos, and comments. This tool provides users with functionalities to view and analyze the harvested data through a Streamlit web interface and perform various queries using SQL.
 
 
 ## Developer Guide 
 
 ### 1. Tools Install
 
-* Virtual code.
-* Jupyter notebook.
-* Python 3.11.0 or higher.
-* MySQL.
-* MongoDB.
-* Youtube API key.
+*Python (version 3.0 or higher)
+*MongoDB
+*PostgreSQL
+*Streamlit
 
 ### 2. Requirement Libraries to Install
 
-* pip install google-api-python-client, pymongo, mysql-connector-python, sqlalchemy, pymysql, pymysql, pandas, numpy, 
-  plotly-express, streamlit.
-  
- ( pip install google-api-python-client pymongo mysql-connector-python sqlalchemy pymysql pandas numpy plotly-express streamlit )
+*google-api-python-client
+*pymongo
+*psycopg2
+*pandas
+*streamlit
  
 ### 3. Import Libraries
 
-**Youtube API libraries**
-* import googleapiclient.discovery
-* from googleapiclient.discovery import build
+*import googleapiclient.discovery
+*import pymongo
+*import psycopg2
+*import pandas as pd
+*import streamlit as st
 
-**File handling libraries**
-* import json
-* import re
-
-**MongoDB**
-* import pymongo
-
-**SQL libraries**
-* import mysql.connector
-* import sqlalchemy
-* from sqlalchemy import create_engine
-* import pymysql
-
-**pandas, numpy**
-* import pandas as pd
-* import numpy as np
-
-**Dashboard libraries**
-* import streamlit as st
-* import plotly.express as px
 
 ### 4. E T L Process
+The ETL process involves extracting data from the YouTube Data API, transforming it into a suitable format, and loading it into MongoDB and PostgreSQL databases. This process is divided into several functions, including fetching channel information, retrieving video details, collecting comments, and migrating data to SQL tables.
 
 #### a) Extract data
+The exploratory data analysis (EDA) process involves analyzing the harvested YouTube data to gain insights and identify patterns. In this project, I facilitated the EDA through Streamlit, a web application framework for Python. Users can interact with the data using a user-friendly interface, visualize data using charts and graphs, and perform SQL queries to extract specific information.
 
 * Extract the particular youtube channel data by using the youtube channel id, with the help of the youtube API developer console.
 
