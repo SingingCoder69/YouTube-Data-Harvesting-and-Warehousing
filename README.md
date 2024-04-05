@@ -49,13 +49,13 @@ The exploratory data analysis (EDA) process involves analyzing the harvested You
 
 #### c) Load  data 
 
-* After the transformation process, the JSON format data is stored in the MongoDB database, also It has the option to migrate the data to MySQL database from the MongoDB database.
+* After the transformation process, the JSON format data is stored in the MongoDB database, also It has the option to migrate the data to PostgresSQL database from the MongoDB database.
 
 ### 5. E D A Process and Framework
 
 #### a) Access MySQL DB 
 
-* Create a connection to the MySQL server and access the specified MySQL DataBase by using pymysql library and access tables.
+* Create a connection to the PostgresSQL server and access the specified MySQL DataBase by using pymysql library and access tables.
 
 #### b) Filter the data
 
@@ -74,7 +74,7 @@ The exploratory data analysis (EDA) process involves analyzing the harvested You
 
 #### Step 2. Data Migrate zone
 
-* Select the **channel name** and click the **Migrate to MySQL** button to migrate the specific channel data to the MySQL database from MongoDB in the **Data Migrate zone**.
+* Select the **channel name** and click the **Migrate to PostgresSQL** button to migrate the specific channel data to the MySQL database from MongoDB in the **Data Migrate zone**.
 
 #### Step 3. Channel Data Analysis zone
 
