@@ -78,7 +78,7 @@ The exploratory data analysis (EDA) process involves analyzing the harvested You
 
 #### Step 3. Channel Data Analysis zone
 
-* **Select a Question** from the dropdown option you can get the **results in Dataframe format or bar chat format**.
+* **Select a Question** from the dropdown option you can get the **results in Dataframe format**.
 
 
 
