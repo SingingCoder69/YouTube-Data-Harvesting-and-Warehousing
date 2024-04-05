@@ -7,9 +7,6 @@
 * This project extracts the particular youtube channel data by using the youtube channel id, processes the data, and stores it in the MongoDB database. It has the option to migrate the data to MySQL from MongoDB then analyse the data and give the results depending on the customer questions.
 
 
-![Intro GUI](https://github.com/Gopinathalpha7/YouTube_Data_Harvesting_and_Warehousing./blob/88b80dca65246a606d9495deddad95202c685430/youtube%20data%20harvesting%20gui.png)
-
-
 ## Developer Guide 
 
 ### 1. Tools Install
@@ -81,7 +78,7 @@
 
 #### c) Visualization 
 
-* Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table and Bar chart.
+* Finally, create a Dashboard by using Streamlit and give dropdown options on the Dashboard to the user and select a question from that menu to analyse the data and show the output in Dataframe Table.
 
 
 ## User Guide
@@ -99,8 +96,5 @@
 * **Select a Question** from the dropdown option you can get the **results in Dataframe format or bar chat format**.
 
 
-## Video link
 
-* Click the below Image
 
-[![Intro GUI](https://github.com/Gopinathalpha7/YouTube_Data_Harvesting_and_Warehousing./blob/88b80dca65246a606d9495deddad95202c685430/youtube%20data%20harvesting%20gui.png)](https://www.linkedin.com/feed/update/urn:li:activity:7065793132247871488/)
